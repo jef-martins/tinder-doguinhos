@@ -1,0 +1,34 @@
+<body class="fundo">
+    <div class="container alinhamento">
+        <div class="row">
+            <div class="cols-auto">
+                <div class="card w-15 fundoPag" style="width: 19rem;" *ngFor="let item of infos">
+                    <img style="  height: 300px;" src="{{item.url}}" class="card-img-top" alt="...">
+                    <div class="container card-group colorCard text-white" style="height: 300px;">
+                        <div class="mar" *ngFor="let breed of item.breeds">
+                            <h5 class="titulo">{{breed.name}}</h5>
+                            <p>{{breed.life_span}}</p>
+                            <p>{{breed.breed_group}}</p>
+                            <p>{{breed.bred_for}}</p>
+                            <p>{{breed.temperament}}</p>
+                            <p>{{breed.weigth}}</p>
+                            <hr>
+                        </div>
+                        <div class="posicao">
+                            <!-- <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                                <button type="button" (click)="xis(item.url)" class="btn btn-outline-dark xis bi bi-x-lg efeito bts"></button>
+                                <button type="button" (click)="star(item.url)" class="btn btn-outline-dark str bi bi-star-fill bts"></button>
+                                <button type="button" (click)="heart(item.url)" class="btn btn-outline-dark her bi bi-suit-heart-fill bts"></button>
+                                <i (click)="verLikes()" class="olho bi bi-eye bts"></i>
+                              </div> -->
+                            <i (click)="xis(item.url)" class="aqui fw--bold bloco xis bi bi-x-lg efeito bts"></i>
+                            <i (click)="star(item.url)" class="aqui str bi bi-star-fill bts"></i>
+                            <i (click)="heart(item.url)" class="aqui her bi bi-suit-heart-fill bts"></i>
+                            <i (click)="verLikes()" class="olho bi bi-eye bts"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

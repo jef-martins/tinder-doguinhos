@@ -1,0 +1,27 @@
+<!-- <div class="container">
+    <div class="list-group-item">
+        <h5>Sua interação: {{guardar.length}}</h5>
+    </div>
+    <ul class="list-group list-group-flush " *ngFor="let item of guardar">
+        <li class="list-group-item">{{item.like}} <i class="bi bi-arrow-right"></i> {{item.url}}</li>
+        <li class="list-group-item"></li>
+    </ul>
+</div> -->
+<div class="mar">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Sua interação: {{guardar.length}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of guardar">
+                <td rowspan="1">{{item.like}}:</td>
+                <td rowspan="1">{{item.url}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<footer class="">
+    <p class="fs-6 text-center"> Made in Brazil 2022. April, Thursday &copy; by Rafaela Farros</p>
+</footer>

@@ -1,0 +1,90 @@
+.alinhamento { /*deixa o elemento centralizado na tela*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorCard {
+    background-color: #343b4d;
+    margin-bottom: 2vw;
+}
+
+.her {
+    color: rgb(251, 34, 34);
+    
+}
+
+.str {
+    color: rgb(255, 248, 50);
+    
+}
+
+.xis {
+    color: rgb(255, 255, 255);
+    
+}
+
+.fundoPag {
+    background-color: #343b4d;
+}
+
+.bts {
+    margin-left: 47px;
+    margin: 17px;
+}
+
+.mar {
+    margin: 5px;
+}
+
+.olho {
+    color: rgb(169, 83, 250);
+    font-size: 32px;
+}
+
+.posicao{
+    position: absolute; /*ajusta o elemento na altura que você quiser na tela*/
+    top: 550px; 
+    font-size: 26px;
+}
+
+.titulo{
+    color:#93C0F2;
+    margin-top: 10px;
+}
+
+
+/* .aqui {
+    
+    padding: 1em 1em;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.aqui i {
+    display: none;
+}
+
+.aqui:hover {
+    box-shadow: 0px 0px 90px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.aqui:hover a {
+    display: block;
+} */
